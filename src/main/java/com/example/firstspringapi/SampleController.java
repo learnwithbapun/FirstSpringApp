@@ -23,5 +23,4 @@ public class SampleController {
     public  String SayHelloToUser(@PathVariable("name") String name){
         return "Hello "+name;
     }
-
 }
